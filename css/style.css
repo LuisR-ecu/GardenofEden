@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #2e7d32;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 2em 1em;
+    background: #a5d6a7;
+}
+.hero .cta {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #2e7d32;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    padding: 2em 1em;
+}
+footer {
+    background: #2e7d32;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+@media (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
